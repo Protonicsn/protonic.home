@@ -1,0 +1,51 @@
+body { 
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1600' height='900' preserveAspectRatio='none' viewBox='0 0 1600 900'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1404%26quot%3b)' fill='none'%3e%3crect width='1600' height='900' x='0' y='0' fill='rgba(21%2c 67%2c 96%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c375.932C74.948%2c375.366%2c149.43%2c370.129%2c216.926%2c337.543C290.418%2c302.063%2c358.088%2c252.675%2c400.156%2c182.745C445.033%2c108.145%2c482.539%2c17.92%2c459.749%2c-66.102C437.343%2c-148.707%2c338.211%2c-179.847%2c283.87%2c-245.974C227.438%2c-314.645%2c222.124%2c-441.735%2c135.328%2c-460.884C46.763%2c-480.423%2c-12.775%2c-363.892%2c-96.89%2c-329.977C-169.23%2c-300.809%2c-254.435%2c-319.526%2c-320.01%2c-277.291C-397.82%2c-227.176%2c-475.506%2c-161.374%2c-498.044%2c-71.608C-521.133%2c20.353%2c-493.217%2c122.449%2c-440.092%2c200.983C-390.229%2c274.696%2c-301.742%2c307.963%2c-219.043%2c340.838C-148.908%2c368.719%2c-75.472%2c376.502%2c0%2c375.932' fill='%2310344a'%3e%3c/path%3e%3cpath d='M1600 1461.3719999999998C1716.742 1450.22 1834.186 1476.7939999999999 1943.664 1434.751 2069.843 1386.2939999999999 2208.7799999999997 1326.5729999999999 2267.73 1204.942 2326.876 1082.907 2285.081 937.275 2247.991 806.833 2214.4880000000003 689.006 2136.909 596.071 2066.168 496.063 1987.195 384.418 1941.85 220.89099999999996 1809.413 186.80499999999995 1676.515 152.60000000000002 1557.54 274.365 1433.588 333.25199999999995 1329.954 382.486 1214.482 414.231 1142.55 503.617 1071.788 591.55 1078.8609999999999 713.079 1042.062 819.781 994.541 957.57 859.792 1080.574 894.77 1222.068 929.422 1362.243 1074.644 1458.304 1211.3809999999999 1504.703 1337.363 1547.452 1467.566 1474.0230000000001 1600 1461.3719999999998' fill='%231a5276'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1404'%3e%3crect width='1600' height='900' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+img { 
+    margin-left: 500px;
+}
+p {
+    padding-left: 10rem;
+    width: 80%;
+    font-size: x-large;
+    color:rgb(191, 235, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a { 
+    margin-left: 740px;
+}
+.btn41-43 {
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  .btn-43 {
+    border: 2px solid rgb(191, 235, 255);
+    z-index: 1;
+    color: rgb(12, 248, 248);
+  }
+  .btn-43:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgb(191, 235, 255);
+    transition: all 0.3s ease;
+  }
+  .btn-43:hover {
+    color: rgb(0, 0, 0);
+  }
+  .btn-43:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+  }
